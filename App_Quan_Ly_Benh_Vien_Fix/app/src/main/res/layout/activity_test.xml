@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".test_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/basic_shape_2"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="70dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="70dp"
+                >
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/icon_mini_doctor"
+                    >
+                </ImageButton>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Bác sĩ"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:layout_height="70dp"
+                >
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/icon_mini_medical_department"
+                    >
+                </ImageButton>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Khoa bệnh"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText">
+                </TextView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="70dp"
+                >
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/icon_mini_service"
+                    >
+                </ImageButton>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Dịch vụ"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText">
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="70dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="70dp"
+                >
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/icon_mini_bookk"
+                    >
+                </ImageButton>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Cẩm nang"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:layout_height="70dp"
+                >
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/icon_mini_now"
+                    >
+                </ImageButton>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Tin tức"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText">
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="70dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="70dp"
+                >
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/icon_mini_rate"
+                    >
+                </ImageButton>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Đánh giá"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText">
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

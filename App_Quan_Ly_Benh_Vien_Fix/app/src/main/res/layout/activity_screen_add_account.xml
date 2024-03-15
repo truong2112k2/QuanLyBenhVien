@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".ScreenAddAccount">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Đăng Ký Tài Khoản"
+        tools:ignore="HardcodedText,InefficientWeight" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:paddingStart="5dp"
+                android:src="@drawable/icon_person"
+                tools:ignore="RtlSymmetry">
+            </ImageView>
+            <EditText
+                android:id="@+id/edtInputRegisterUserName"
+                android:layout_width="match_parent"
+                android:layout_marginStart="3dp"
+                android:hint="Nhập vào tên tài khoản"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_text_stroke_bottom"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText">
+            </EditText>
+        </LinearLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:paddingStart="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_pasword2"
+                >
+            </ImageView>
+            <EditText
+                android:id="@+id/edtInputRegisterPassWord"
+                android:layout_width="285dp"                android:hint="Nhập vào mật khẩu"
+                android:inputType="textPassword"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:background="@drawable/shape_text_stroke_bottom"
+                android:layout_marginStart="3dp"
+
+                tools:ignore="HardcodedText">
+            </EditText>
+            <ImageView
+                android:id="@+id/btnShow_Password1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="3dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_showpassword"
+                >
+            </ImageView>
+        </LinearLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:paddingStart="5dp"
+                android:src="@drawable/icon_pasword2"
+                >
+            </ImageView>
+
+            <EditText
+                android:id="@+id/edtInputRegisterPassWordSecond"
+                android:layout_width="285dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_text_stroke_bottom"
+                android:hint="Nhập lại mật khẩu"
+                android:inputType="textPassword"
+                android:textSize="18sp"
+                android:layout_marginStart="3dp"
+
+                tools:ignore="HardcodedText">
+
+            </EditText>
+
+            <ImageView
+                android:id="@+id/btnShow_Password2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="3dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_showpassword"
+                >
+            </ImageView>
+
+
+        </LinearLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:paddingStart="5dp"
+                android:src="@drawable/icon_email"
+                >
+            </ImageView>
+            <EditText
+                android:id="@+id/edtInputRegisterEmail"
+                android:layout_width="match_parent"
+                android:hint="Nhập vào email"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginStart="3dp"
+
+                android:background="@drawable/shape_text_stroke_bottom"
+
+                tools:ignore="HardcodedText">
+            </EditText>
+        </LinearLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegisterAccount"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/shape_button"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Đăng ký"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>

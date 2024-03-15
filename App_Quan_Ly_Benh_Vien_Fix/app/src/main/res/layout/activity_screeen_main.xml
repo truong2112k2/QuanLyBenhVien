@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ScreeenMain">
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="#A6D1C8"
+        android:src="@drawable/background_bac_si_2"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        >
+    </ImageView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="300dp"
+        app:cardBackgroundColor="#C2E0F8"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_height="300dp"
+        >
+        <LinearLayout
+            android:id="@+id/BigLinear"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="match_parent">
+           <LinearLayout
+
+               android:layout_width="match_parent"
+               android:gravity="center"
+               android:layout_height="50dp"
+               >
+               <ImageButton
+                   android:id="@+id/btnViewDr"
+                   android:layout_width="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_height="50dp"
+                   android:layout_marginEnd="50dp"
+                   android:background="@android:color/transparent"
+                   app:srcCompat="@drawable/icon_mini_doctor" />
+
+               <ImageButton
+                   android:id="@+id/btnViewBookCalendar"
+                   android:layout_width="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_marginStart="50dp"
+                   android:background="@android:color/transparent"
+                   android:layout_height="50dp"
+                   app:srcCompat="@drawable/mini_icon_calendar" />
+           </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="80dp"
+                android:layout_height="50dp"
+                >
+                <ImageButton
+                    android:id="@+id/btnViewNews"
+                    android:layout_width="50dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginEnd="50dp"
+                    android:layout_height="50dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/icon_mini_now" />
+
+                <ImageButton
+                    android:id="@+id/btnService"
+                    android:layout_width="50dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginStart="50dp"
+                    android:background="@android:color/transparent"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/icon_mini_service" />
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+     </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

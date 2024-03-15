@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        tools:ignore="PermissionImpliesUnsupportedChromeOsHardware" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon_app_hospital"
+        android:label="Quản Lý Bệnh Viện"
+        android:roundIcon="@drawable/hospital_circle_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App_Quan_Ly_Benh_Vien_Fix"
+        tools:targetApi="31">
+
+        <activity
+            android:name="admin.ScreenViewBookCalendarAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ScreenAddInSureRance"
+            android:exported="false" />
+        <activity
+            android:name=".ScreenViewNews"
+            android:exported="false" />
+        <activity
+            android:name=".ScreenViewCalendarBook"
+            android:exported="false" />
+        <activity
+            android:name=".ScreenSecond"
+            android:exported="false" />
+        <activity
+            android:name=".ScreenBookDr"
+            android:exported="false" />
+        <activity
+            android:name=".ScreenViewDr"
+            android:exported="false" />
+        <activity
+            android:name="admin.ScreenViewKhoaPhuSan"
+            android:exported="false" />
+        <activity
+            android:name="admin.ScreenViewTimMach"
+            android:exported="false" />
+        <activity
+            android:name="admin.ScreenViewKhoaNhi"
+            android:exported="false" />
+        <activity
+            android:name="admin.ScreenViewHoiSuc"
+            android:exported="false" />
+        <activity
+            android:name="admin.ScreenViewNoiTiet"
+            android:exported="false" />
+        <activity
+            android:name="admin.ScreenViewHoHap"
+            android:exported="false" />
+        <activity
+            android:name="admin.ScreenViewDepartment"
+            android:exported="false" />
+        <activity
+            android:name="admin.LoadingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_loading"
+            android:theme="@style/Theme.App_Quan_Ly_Benh_Vien_Fix" />
+        <activity
+            android:name="admin.ScreenManagerDoctor_Add"
+            android:exported="false" />
+        <activity
+            android:name="admin.ScreenManagerDoctor"
+            android:exported="false" />
+        <activity
+            android:name="admin.ScreenAdminHome"
+            android:exported="false" />
+        <activity
+            android:name=".test_activity"
+            android:exported="false" />
+        <activity
+            android:name=".ScreenChangeInfoAccount"
+            android:exported="false" />
+        <activity
+            android:name=".ScreeenMain"
+            android:exported="false" />
+        <activity
+            android:name=".ScreenResetAccount"
+            android:exported="false" />
+        <activity
+            android:name=".ScreenAddAccount"
+            android:exported="false" />
+        <activity
+            android:name=".ScreenHome"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

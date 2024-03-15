@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    app:cardBackgroundColor="#AEB5D7"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="10dp"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/showDrImage"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            app:shapeAppearanceOverlay="@style/roundedImageView"
+            android:src="@drawable/icon_avatar"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription">
+        </com.google.android.material.imageview.ShapeableImageView>
+        <View
+            android:layout_width="1dp"
+            android:layout_marginStart="5dp"
+            android:paddingEnd="2dp"
+            android:layout_height="match_parent"
+            android:background="#6C6666"
+            tools:ignore="RtlSymmetry">
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf">
+            <TextView
+                android:id="@+id/showDrName"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|left"
+                android:text="Dr Name"
+                android:textSize="15sp"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry">
+            </TextView>
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="#A49C9C"
+                tools:ignore="UselessLeaf">
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/showDrAge"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|left"
+                android:text="Dr age"
+                android:textSize="15sp"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry">
+            </TextView>
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="#A49C9C"
+                tools:ignore="UselessLeaf">
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/showDrDepartment"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|left"
+                android:text="Dr department"
+                android:textSize="15sp"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry">
+            </TextView>
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="#A49C9C"
+                tools:ignore="UselessLeaf">
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/showTypeOfDelease"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|left"
+                android:text="....."
+                android:textSize="15sp"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry">
+            </TextView>
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="#A49C9C"
+                tools:ignore="UselessLeaf">
+            </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

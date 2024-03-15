@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context="admin.ScreenManagerDoctor_Add">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/icon_doctor_add2"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông Tin Bác Sĩ"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên bác sĩ"
+        android:layout_marginStart="15dp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+        <EditText
+            android:id="@+id/edtInputDoctorName"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/shape_editext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:paddingStart="5dp"
+            android:hint="Tên bác sĩ"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,RtlSymmetry,TextFields">
+        </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuổi bác sĩ"
+        android:layout_marginStart="15dp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+        <EditText
+            android:id="@+id/edtInputDoctorAge"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_editext"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="5dp"
+            android:hint="Tuổi bác sĩ"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,RtlSymmetry,TextFields">
+        </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khoa phụ trách"
+        android:layout_marginStart="15dp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:layout_marginStart="20dp"
+          android:gravity="center"
+          android:layout_marginEnd="20dp"
+          android:background="@drawable/basic_shape"
+          >
+          <Spinner
+              android:id="@+id/SpnInputDoctorMedicalDepartment"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              >
+          </Spinner>
+
+      </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bệnh phụ trách"
+        android:layout_marginStart="15dp"
+        android:textSize="20sp"
+
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/basic_shape"
+        >
+        <Spinner
+            android:id="@+id/spnInputTypeOfDesease"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+        </Spinner>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAddImageDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/shape_button"
+            android:text="Thêm Ảnh"
+            tools:ignore="HardcodedText" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSaveDataDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+
+            android:background="@drawable/shape_button"
+            android:text="Lưu"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>

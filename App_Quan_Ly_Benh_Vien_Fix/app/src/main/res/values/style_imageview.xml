@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="roundedImageView"> // tên của file style mà t tạo ra
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    ornerFamily: Thuộc tính này chỉ định loại góc mà ImageView sẽ có.
+    Trong trường hợp này, giá trị "rounded" được sử dụng, cho biết rằng ImageView sẽ có các góc làm tròn.
+    cornerSize: Thuộc tính này xác định kích thước của góc làm tròn.
+    Trong trường hợp này, giá trị "50%" được sử dụng để chỉ định rằng góc,
+    làm tròn có kích thước bằng 50% của kích thước ImageView.
+    Điều này tạo ra một hình dạng hình ảnh với góc làm tròn.
+</resources>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D0D0"
+    android:padding="5dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ScreenChangeInfoAccount">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/icon_change_info"
+        >
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thay Đổi Thông Tin"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText,InefficientWeight" />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_editext"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessLeaf">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/img"
+                tools:ignore="ContentDescription">
+            </ImageView>
+            <EditText
+                android:id="@+id/edtOldName"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="Tên đăng nhập"
+                tools:ignore="HardcodedText">
+            </EditText>
+        </LinearLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_editext"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessLeaf">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="center"
+
+                android:src="@drawable/icon_pasword2"
+                tools:ignore="ContentDescription">
+            </ImageView>
+            <EditText
+                android:id="@+id/edtOldPass"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="Mật khẩu"
+                tools:ignore="HardcodedText">
+            </EditText>
+        </LinearLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_editext"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessLeaf">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="center"
+
+                android:src="@drawable/img"
+                tools:ignore="ContentDescription">
+            </ImageView>
+            <EditText
+                android:id="@+id/edtNewName"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="Tên đăng nhập mới "
+                tools:ignore="HardcodedText">
+            </EditText>
+        </LinearLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_editext"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessLeaf">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="center"
+
+                android:src="@drawable/icon_pasword2"
+                tools:ignore="ContentDescription">
+            </ImageView>
+            <EditText
+                android:id="@+id/edtNewPass"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="Mật khẩu mới"
+                tools:ignore="HardcodedText">
+            </EditText>
+        </LinearLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_editext"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessLeaf">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/icon_email"
+                android:layout_gravity="center"
+                tools:ignore="ContentDescription">
+            </ImageView>
+            <EditText
+                android:id="@+id/edtNewEmail"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="Nhập email mới "
+                tools:ignore="HardcodedText">
+            </EditText>
+        </LinearLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConFirmChange"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_button"
+        android:text="Xác nhận"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>

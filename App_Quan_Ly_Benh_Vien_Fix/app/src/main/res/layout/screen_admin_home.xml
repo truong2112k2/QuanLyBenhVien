@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_hospital"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="admin.ScreenAdminHome">
+
+    <ProgressBar
+        android:id="@+id/progressbar_loading"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        >
+    </ProgressBar>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnManagerDoctor"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:text="Quản lý bác sĩ"
+        android:background="@drawable/shape_button"
+        tools:ignore="HardcodedText">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnManagerMedicalDepartment"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        android:text="Quản lý khoa bệnh"
+        android:background="@drawable/shape_button"
+        tools:ignore="HardcodedText">
+    </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>
